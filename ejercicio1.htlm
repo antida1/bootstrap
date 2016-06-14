@@ -8,10 +8,11 @@
   </head>
 
   <body>
-   <div class="container">  
+   <div class="container">
+   <form>
+   <div class="form-group">
    <div class="row">
-   <form group>
-   <div class="col-md-3 col-xs-12">
+   		<div class="col-md-3 col-xs-12">
    			<img class="foto" src="/home/testuser/Documentos/bootstrap/assets/imagenes/foto.jpg">   			
    		</div>
    		<div class="col-md-9 col-xs-12">
@@ -24,9 +25,10 @@
 
    			La historia de cada una de éstas mujeres ha trascendido a través de los tiempos porque han aportado su sensibilidad femenina, su inteligencia, su carácter y sus hechos, los cuales les han dado la inmortalidad.
    			</p>
-   		</div> 	
+   		</div>   			
+   		</div>   	
+   </div>   
    </form>
-   </div>  
    <form group>
    	<div class="row">   		
    		<div class="col-md-2 col-xs-12">
