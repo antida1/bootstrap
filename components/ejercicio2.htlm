@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="/home/testuser/Documentos/bootstrap/components/style2.css">  
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+	  <title>ACTIVIDAD: Bootstrap2</title>
+  </head>
+
+  <body>
+   <div class="container">
+   		<div class="row">
+   		<div class="col-md-3 col-xs-12">
+   			<img class="foto" src="/home/testuser/Documentos/bootstrap/assets/imagenes/foto2.jpg">   			
+   		</div>
+   		<div class="col-md-9 col-xs-12">
+   			<p>Seducción (Mi hombre), de Jodi Ellen Malpas, es el primer volumen de una saga de narrativa erótica entre el aristócrata Jesse Ward y una joven diseñadora de interiores Ava O`Shea. Unos libros absolutamente adictivos, una buena historia de amor, con personajes sorprendentes, bien construidos y adorables. Si te gusta leer sobre un hombre que toma el control y que manda en la cama, estos son tus libros. Los ingredientes que dan el éxito a esta trilogía son seducción, dominación, amor, lujo, obsesión, fantasía, glamour, éxtasis, sexo, confesión, erotismo, placer...<br>
+            ¿Te apuntas a vivirla en tu propia piel? Jodi Ellen Malpas nació en Northampton, donde vive junto a su familia. Mientras trabajaba en la empresa de construcción de su padre fue ideando la trama de la trilogía y creó el personaje de Jesse Ward. En 2012 decidió autopublicar Seducción, y la masiva respuesta de sus lectoras la animó a terminar los demás.<br>
+            Catapultada hasta el número uno del New York Times, la trilogía Mi hombre (Seducción, Obsesión y Confesión) se ha convertido en el fenómeno digital del año, y ha coronado a Jodi Ellen Malpas como la nueva reina de la novela erótica.<br>
+            Más de un millón de lectoras ya se han enamorado de Jesse.
+   			</p>
+   		</div>   			
+   		</div>
+   		<div class="row">   		
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Nombre">Nombre:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="Nombre" value="Jesse" disabled="true">
+   		</div>   		
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Apellido">Apellido:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="Apellido" value="Ward" disabled="true">
+   		</div>
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Password">Clave:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="password" name="Password" value="123456789" disabled="true">
+   		</div>
+   		<div class="col-md-2 col-xs-12">
+   			<label for="FechaN">Fecha de Nacimiento:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="FechaN" value="12/11/1984" disabled="true">
+   		</div>
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Sexo">Sexo:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="Sexo" value="Masculino" disabled="true">
+   		</div>
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Email">Correo Electrónico:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="Email" value="hombreseduccion@gmail.com" disabled="true">
+   		</div>
+   		</div> 
+   		<div class="row">
+   		<div class="col-md-6 col-xs-12">
+   			<button class="btn btn-primary" type="submit">Editar</button>   			
+   		</div>
+   		<div class="col-md-6 col-xs-12">
+   			<button class="btn btn-default"  type="submit">Borrar</button>
+   		</div>  			
+   		</div>  
+   		<div class="row">
+   		<div class="col-md-12 col-xs-12">
+   			<a href="/home/testuser/Documentos/bootstrap/ejercicio1.htlm">USUARIO ANTERIOR</a>    				
+   		</div>
+   			
+   		</div>		
+   		
+   			
+   		</div>
+   </div>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="/home/testuser/Documentos/bootstrap/style.css">  
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+	  <title>ACTIVIDAD: Bootstrap</title>
+  </head>
+
+  <body>
+   <div class="container">  
+   <div class="row">
+   <form group>
+   <div class="col-md-3 col-xs-12">
+   			<img class="foto" src="/home/testuser/Documentos/bootstrap/assets/imagenes/foto.jpg">   			
+   		</div>
+   		<div class="col-md-9 col-xs-12">
+   			<p>	Por: Paco Zavalaz<br>
+   			La mujer, símbolo permanente de la procreación y de la permanencia del género humano sobre la faz de la tierra por disposición divina y natural, indiscutiblemente, se le honró el pasado 8 de marzo con infinidad de actividades a nivel internacional con motivo del “Día Internacional de la Mujer”<br>
+
+   			Lamentablemente la predominancia que el hombre ha ejercido en todos los quehaceres y sobre la mujer en el transcurso de la historia y del tiempo la ha minimizado y su existencia se ha tornado complicada, y en algunas áreas del mundo casi inexistente como ser humano que merece todos los privilegios y consideraciones a los que tenemos derecho todos los pobladores de la tierra.<br>
+
+   			Hay personajes históricos femeninos que han dejado una huella imborrable en la historia de los tiempos como Cleopatra, Lucrecia Borgia, Catalina de Medicis, Catalina La Grande, Maria Antonieta, La Malinche, Sor Juana Inés de la Crúz, Juana de Arco, Josefa Ortíz de Domínguez , Madame Curie, Coco Chanel, Indira Gandhi y Rigoberta Menchú por citar algunas entre miles o millones en todo el orbe.<br>
+
+   			La historia de cada una de éstas mujeres ha trascendido a través de los tiempos porque han aportado su sensibilidad femenina, su inteligencia, su carácter y sus hechos, los cuales les han dado la inmortalidad.
+   			</p>
+   		</div> 	
+   </form>
+   </div>  
+   <form group>
+   	<div class="row">   		
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Nombre">Nombre:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="Nombre" value="Valentina" disabled="true">
+   		</div>   		
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Apellido">Apellido:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="Apellido" value="Correa" disabled="true">
+   		</div>
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Password">Clave:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="password" name="Password" value="123456789" disabled="true">
+   		</div>
+   		<div class="col-md-2 col-xs-12">
+   			<label for="FechaN">Fecha de Nacimiento:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="FechaN" value="15/04/1986" disabled="true">
+   		</div>
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Sexo">Sexo:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="Sexo" value="Femenino" disabled="true">
+   		</div>
+   		<div class="col-md-2 col-xs-12">
+   			<label for="Email">Correo Electrónico:</label>   			
+   		</div>
+   		<div class="col-md-10 col-xs-12">
+   			<input type="text" name="Email" value="valentinac15@gmail.com" disabled="true">
+   		</div>
+   		</div> 
+   </form> 
+   <form group>
+   	<div class="row">
+   		<div class="col-md-6 col-xs-6">
+   			<button class="btn btn-primary" type="submit">Editar</button>   			
+   		</div>
+   		<div class="col-md-6 col-xs-6">
+   			<button class="btn btn-default"  type="submit">Borrar</button>
+   		</div>  			
+   	</div>  
+   </form>  
+   <form group>
+   	<div class="row">
+   		<div class="col-md-12 col-xs-12">
+   			<a href="./components/ejercicio2.htlm">SIGUIENTE USUARIO</a>    				
+   		</div>
+   	</div>	
+   </form>    			
+   </div>
+  </body>
+</html>
