@@ -3,6 +3,7 @@
   <head>
   <link rel="stylesheet" href="/home/testuser/Documentos/bootstrap/style.css">  
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script type="text/javascript" src="/home/testuser/Documentos/bootstrap/scripts.js"></script>
   <meta charset="UTF-8">
 	  <title>ACTIVIDAD: Bootstrap</title>
   </head>
@@ -16,7 +17,7 @@
    			<img class="foto" src="/home/testuser/Documentos/bootstrap/assets/imagenes/foto.jpg">   			
    		</div>
    		<div class="col-md-9 col-xs-12">
-   			<p>	Por: Paco Zavalaz<br>
+   			<p class="parrafo">	Por: Paco Zavalaz<br>
    			La mujer, símbolo permanente de la procreación y de la permanencia del género humano sobre la faz de la tierra por disposición divina y natural, indiscutiblemente, se le honró el pasado 8 de marzo con infinidad de actividades a nivel internacional con motivo del “Día Internacional de la Mujer”<br>
 
    			Lamentablemente la predominancia que el hombre ha ejercido en todos los quehaceres y sobre la mujer en el transcurso de la historia y del tiempo la ha minimizado y su existencia se ha tornado complicada, y en algunas áreas del mundo casi inexistente como ser humano que merece todos los privilegios y consideraciones a los que tenemos derecho todos los pobladores de la tierra.<br>
@@ -29,13 +30,14 @@
    		</div>   	
    </div>   
    </form>
-   <form group>
+   <form class="usuario">
+   <div class="form-group">
    	<div class="row">   		
    		<div class="col-md-2 col-xs-12">
    			<label for="Nombre">Nombre:</label>   			
    		</div>
    		<div class="col-md-10 col-xs-12">
-   			<input type="text" name="Nombre" value="Valentina" disabled="true">
+   			<input id="username" type="text" name="Nombre" onblur="validate()">
    		</div>   		
    		<div class="col-md-2 col-xs-12">
    			<label for="Apellido">Apellido:</label>   			
@@ -47,7 +49,7 @@
    			<label for="Password">Clave:</label>   			
    		</div>
    		<div class="col-md-10 col-xs-12">
-   			<input type="password" name="Password" value="123456789" disabled="true">
+   			<input id="password" type="password" name="Password" onblur="validate()">
    		</div>
    		<div class="col-md-2 col-xs-12">
    			<label for="FechaN">Fecha de Nacimiento:</label>   			
@@ -68,24 +70,30 @@
    			<input type="text" name="Email" value="valentinac15@gmail.com" disabled="true">
    		</div>
    		</div> 
+   </div>   	
    </form> 
-   <form group>
+   <form>
+   <div class="form-group">
    	<div class="row">
    		<div class="col-md-6 col-xs-6">
-   			<button class="btn btn-primary" type="submit">Editar</button>   			
+   			<button class="btn btn-primary" type="submit" onclick="nombreFuncion()">Editar</button>   			
    		</div>
    		<div class="col-md-6 col-xs-6">
    			<button class="btn btn-default"  type="submit">Borrar</button>
    		</div>  			
    	</div>  
+   </div>   	
    </form>  
-   <form group>
-   	<div class="row">
+   <form class="link">
+   <div class="form-group">
+   		<div class="row">
    		<div class="col-md-12 col-xs-12">
    			<a href="./components/ejercicio2.htlm">SIGUIENTE USUARIO</a>    				
    		</div>
-   	</div>	
-   </form>    			
+   		</div>	
+   </div>   
+   </form>
+    <p id="error"></p>          			
    </div>
   </body>
 </html>

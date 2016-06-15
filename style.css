@@ -1,3 +1,23 @@
 .foto{
 	width:100%;
 }
+.parrafo{
+	width: 100%;
+	align-self: center;
+	font-size: 17px;
+}
+.usuario{
+	width: 100%;
+	align-self: center;
+	border: 1px;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.link{
+	margin-top: 20px;
+}
+#error {
+  color: #9f2505;
+  font-size: 18px;
+  margin: auto;
+}
